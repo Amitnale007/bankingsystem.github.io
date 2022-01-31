@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #6d597a;
+}
+
+}
+/* navbar css starts here  */
+
+.container-fluid{
+    margin-left: 13%;
+    margin-top: 5%;
+
+} 
+.image{
+    background: rgba(163, 155, 202, 0.5) url('../../Image/hero-img.png');
+    background-size: cover;
+}
+
+
+
+.bg-light{
+    background-color: #332d2a!important;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.toggle-color{
+    background-color: #d3c2c2;
+}
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color:  #f9f3f3!important;
+}
+
+.nav-link{
+    color: #f9f3f3!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.nav-link:hover{
+    background-color: #d4bcbc;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    color: #ffffff;
+    padding: 3rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.btn{
+    
+    border-radius: 10px;
+    background-color: #000000;
+    font-size: 20px;
+    color: rgb(31, 107, 117);
+    border: 2px solid #008CBA;    
+    
+    
+}
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+    margin-bottom: 0%;
+}
+
+.heading{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+}
+
+
+/* footer css ends here  */
